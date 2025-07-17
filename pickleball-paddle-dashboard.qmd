@@ -91,7 +91,7 @@ dataTableOutput("data")
 plotlyOutput("p1")
 ```
 
-# Congrats! You picked a paddle
+# Congrats! You picked a paddle!
 
 Once you pick a paddle, please refer back to the original database at <https://www.johnkewpickleball.com/paddle-database> to check the certification status, discount code, and link to purchase.
 
