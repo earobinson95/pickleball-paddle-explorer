@@ -19,7 +19,7 @@ library(DT)
 library(plotly)
 
 data_orig <-
-  read_csv("Paddle-Metrics-Master-Squarespace Version(Published 7-11-25).csv"
+  read_csv("paddle-metrics-7-11-25.csv"
            ) |>
   clean_names() |>
   mutate(across(c(retail_price,
