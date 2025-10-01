@@ -2,6 +2,7 @@
 title: "Pickleball Paddle Explorer"
 format: dashboard
 server: shiny
+embed-resources: true
 execute:
   warning: false
   message: false
@@ -100,7 +101,7 @@ Once you pick a paddle, please refer back to the original database at <https://w
 
 # filter data
 data_orig <- reactive({
-  read_csv("Paddle-Metrics-Master-Squarespace Version(Published 7-11-25).csv",
+  read_csv("paddle-metrics-7-11-25.csv",
            locale = locale(encoding = "UTF-8")
            ) |> 
   clean_names() |>
